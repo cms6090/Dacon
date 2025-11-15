@@ -1,0 +1,16 @@
+# Jupyter checkpoint 전체 무시
+**/.ipynb_checkpoints/
+
+# data 폴더 내부 무시할 항목들
+data/test/
+data/train/
+data/sample_submission.csv
+data/test.csv
+data/train.csv
+data/all_train_data.feather
+
+# model 폴더 무시
+**/model/
+
+# 가상환경 폴더 무시
+venv/
