@@ -191,7 +191,7 @@ def preprocess_A(df):
 
     # A6, A7 (문제풀이)
     feats["A6_correct_count"] = df["A6-1"]
-    feats["A7_correct_count"] = df["A7-1"]
+    feats["f"] = df["A7-1"]
 
     # A8, A9 (질문지)
     feats["A8-1"] = df["A8-1"];  feats["A8-2"] = df["A8-2"]

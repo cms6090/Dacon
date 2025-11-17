@@ -36,7 +36,7 @@ BEST_B_PARAMS = {
 }
 
 ## 1. 로컬 경로 및 데이터 로드
-BASE_DIR = "../data"
+BASE_DIR = "./data"
 MODEL_SAVE_DIR = "./model"
 os.makedirs(MODEL_SAVE_DIR, exist_ok=True)
 
